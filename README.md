@@ -43,5 +43,5 @@ python run.py
 ```
 
 ## Acknowledgment
-The sequence segmentation (interactions.py) is heavily built on \[[Spotlight](https://github.com/maciejkula/spotlight)\]. Thanks for the amazing work.
+The sequence segmentation (interactions.py) is heavily built on \[Spotlight(https://github.com/maciejkula/spotlight)\]. Thanks for the amazing work.
 
