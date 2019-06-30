@@ -3,7 +3,7 @@ The implementation of the paper:
 
 *Chen Ma, Peng Kang, and Xue Liu, "**Hierarchical Gating Networks for Sequential Recommendation**", in the 25th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2019**)* 
 
-Arxiv:
+Arxiv: https://arxiv.org/abs/1906.09217
 
 **Please cite our paper if you use our code. Thanks!**
 
