@@ -203,7 +203,7 @@ if __name__ == '__main__':
 
     config = parser.parse_args()
 
-    from data import Amazon, MovieLens
+    from data import Amazon
     data_set = Amazon.CDs()  # MovieLens.ML20M()  # Books, CDs, Electronics
     # item_id=0 for sequence padding
     train_set, val_set, train_val_set, test_set, num_users, num_items = data_set.generate_dataset(index_shift=1)
