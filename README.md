@@ -14,7 +14,7 @@ Author: Chen Ma (allenmc1230@gmail.com)
 ## Environments
 
 - python 3.6
-- PyTorch (version: 0.4.0)
+- PyTorch (version: 1.0.0)
 - numpy (version: 1.15.0)
 - scipy (version: 1.1.0)
 - sklearn (version: 0.19.1)
