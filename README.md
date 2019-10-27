@@ -11,6 +11,20 @@ Author: Chen Ma (allenmc1230@gmail.com)
 
 **Feel free to send me an email if you have any questions.**
 
+**Bibtex**
+```
+@inproceedings{DBLP:conf/kdd/MaKL19,
+  author    = {Chen Ma and
+               Peng Kang and
+               Xue Liu},
+  title     = {Hierarchical Gating Networks for Sequential Recommendation},
+  booktitle = {{KDD}},
+  pages     = {825--833},
+  publisher = {{ACM}},
+  year      = {2019}
+}
+```
+
 ## Environments
 
 - python 3.6
