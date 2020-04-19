@@ -58,7 +58,7 @@ python run.py
 
 ## Another implementation
 
-Another implementation from [Liwei Wu](https://github.com/wuliwei9278) with a different evaluation strategy can be found [here](https://github.com/wuliwei9278/HGN_baseline).
+Kindly thank [Liwei Wu](https://github.com/wuliwei9278) for another implementation with a different evaluation strategy: https://github.com/wuliwei9278/HGN_baseline.
 
 ## Acknowledgment
 The sequence segmentation (interactions.py) is heavily built on [Spotlight](https://github.com/maciejkula/spotlight). Thanks for the amazing work.
