@@ -93,11 +93,11 @@ def mapk(actual, predicted, k=10):
 
 
 def ndcg_k(actual, predicted, topk):
-    k = min(topk, len(actual))
-    idcg = idcg_k(k)
     res = 0
     for user_id in range(len(actual)):
-        dcg_k = sum([int(predicted[user_id][j] in set(actual[user_id])) / math.log(j+2, 2) for j in range(k)])
+        k = min(topk, len(actual[user_id]))
+        idcg = idcg_k(k)
+        dcg_k = sum([int(predicted[user_id][j] in set(actual[user_id])) / math.log(j+2, 2) for j in range(topk)])
         res += dcg_k / idcg
     return res / float(len(actual))
 
