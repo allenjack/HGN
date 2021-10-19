@@ -36,7 +36,7 @@ Author: Chen Ma (allenmc1230@gmail.com)
 
 ## Dataset
 
-In our experiments, the *movielens-20M* dataset is from https://grouplens.org/datasets/movielens/20m/, the *Amazon-CDs* and *Amazon-Books* datasets are from http://jmcauley.ucsd.edu/data/amazon/, the *GoodReads-Children* and *GoodReads-Comics* datasets are from https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home. (If you need the data after preprocessing, please send me an email).
+In our experiments, the *movielens-20M* dataset is from https://grouplens.org/datasets/movielens/20m/, the *Amazon-CDs* and *Amazon-Books* datasets are from http://jmcauley.ucsd.edu/data/amazon/, the *GoodReads-Children* and *GoodReads-Comics* datasets are from https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home. (If you need the data after preprocessing, please ~~send me an email~~ check this [Google Drive link](https://drive.google.com/file/d/1fPTpXFActieWBjowJpAF0YzctFHALCp3/view?usp=sharing)).
 
 The ```XXX_tem_sequences.pkl``` file is a list of lists that stores the inner item id of each user in a chronological order, e.g., ```user_records[0]=[item_id0, item_id1, item_id2,...]```.
 
